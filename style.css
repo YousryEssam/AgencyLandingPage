@@ -220,7 +220,6 @@ li {
   align-items: center;
   background-size: cover;
   flex-direction: column;
-  justify-content: center;
   justify-content: flex-start;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,8 +241,8 @@ li {
 /* page-sections */
 
 .section {
-  justify-content: center;
   align-content: center;
+  justify-content: center;
 }
 .page-sections {
   flex-direction: column;
@@ -291,6 +290,7 @@ li {
 .img-section {
   width: 50%;
   height: 90vh;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
